@@ -8,7 +8,7 @@ I integrate the shematic about how to wire the leds.
 I use 320 ohms resistors but according with Tom Jones who inspires me this
 sample, anything between 200 and 400 ohms will be fine.
 
-![schema](ledflash.png)
+![schema|50%](ledflash.png)
 
 ledflash.c is the C code turning on and off the leds, you can compile it using make
 in the Beagle Bone with only base tools.
