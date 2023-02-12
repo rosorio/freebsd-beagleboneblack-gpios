@@ -8,7 +8,7 @@ I integrate the shematic about how to wire the leds.
 I use 320 ohms resistors but according with Tom Jones who inspires me this
 sample, anything between 200 and 400 ohms will be fine.
 
-![](ledflash.png)
+![schema](/ledflash/ledflash.png)
 
 ledflash.c is the C code turning on and off the leds, you can compile it using make
 in the Beagle Bone with only base tools.
@@ -16,4 +16,4 @@ in the Beagle Bone with only base tools.
 demo.sh is a shell script doing the GPIOS setup and running the demo.
 Of course the setup can be done in C at the befining of the code.
 
-![](live_demo.gif)
+![live](/ledflash/live_demo.gif)
